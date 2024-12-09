@@ -1,0 +1,34 @@
+JAVASCRIPT
+
+AULA SOBRE DADOS
+
+Converter String para Number: Number.parseInt()
+                              Number.parseFloat()
+                              Number()
+
+>FORMATANDO STRINGS
+
+Converter Number para String: .toString()
+                              String()
+
+CONCATENAÇÂO
+
+var s = 'JavaScript'
+
+'Eu estou aprendendo s' //não faz interpolação
+'Eu estou aprendendo' +s //usa concatenação
+`Eu estou aprendendo ${s}`// usa template string
+
+var s ='JavaScript'
+
+s.length        //quantos caracteres a string tem
+s.toUpperCase() //tudo para 'MAIÚSCULAS'
+s.toLowerCase() //tudo para 'minúsculas'
+
+>FORMATANDO NÚMEROS
+
+var n1 = 1543.5
+n1
+n1.tofixed(2) deixaria como 1543.50
+
+n1.tolocaleString('pt-BR', {style: 'currency', currency: 'BRL})
