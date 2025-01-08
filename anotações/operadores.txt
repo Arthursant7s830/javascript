@@ -40,4 +40,53 @@ Incremento:
 
 var x = 5      x++
 x = x + 1      x--
->OPERADORES
+
+>OPERADORES RELACIONAIS
+
+5>2 true
+7<4 false
+8>=8 true
+9<=7 false
+5==5 true
+4!=4 false
+5==='5' false
+
+>OPERADORES LÓGICOS
+
+! (negação)
+&& (conjução)
+|| (disjunção)
+
+true && true > true
+true && false > false
+false && true > false
+false && false > false
+
+
+true || true > true
+true || false > true
+false || true > true
+false || false > false
+
+
+Precedência
+
+() ** /
+> < >=
+!
+&&
+||
+
+>OPERADOR TERNÁRIO
+
+?
+:
+
+> var x = 8
+undefined
+> var res = x % 2 == 0 ? 5: 9
+undefined
+> x
+8
+> res
+5
