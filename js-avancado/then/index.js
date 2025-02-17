@@ -1,12 +1,3 @@
-/*
-Pendente
-Realizada Resolve
-Recusada Reject
-Estabelecida 
-*/
-
-
-
 let ferverAgua = () => {
     chaleiraEstaNoFogao, fogaoLigado
     return new Promise((resolve, reject) => {
@@ -21,6 +12,9 @@ let ferverAgua = () => {
 }
 
 let chaleiraEstaNoFogao = true
-let fogaoLigado = false
-ferverAgua(chaleiraEstaNoFogao, fogaoLigado)
+let fogaoLigado = true;
+
+let passarCafe = () => console.log('passando café')
+
+ferverAgua(chaleiraEstaNoFogao, fogaoLigado).then(passarCafe)
 console.log('fazendo café')
