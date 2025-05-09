@@ -4,39 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introdução ao DOM</title>
-    <style>
-        body {
-            background-color: black;
-            color: beige;
-            font: normal 1.3em arial;
-        }
+    <title>Exercício 01</title>
+  
     </style>
 </head>
-
 <body>
-    <h1>Iniciando estudos com DOM</h1>
-    <P>Aqui vai o resultado</P>
-    <p>Aprendendo a usar<strong> DOM </strong>em JavaScript</p>
-
-    <div class="msg">
-        Olá, Mundo!
-    </div>
-
-    <script>
-        var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[1]
-        window.document.write('Mensagem: ' + p1.innerHTML)
-        p1.style.color = 'blue'
-        corpo.style.backgroundColor = 'darkGreen'
-        /*
-                var d = window.document.getElementById('msg')
-                d.style.color = 'Red'
-                d.innerText = 'Aguardando'*/
-
-        var d = window.document.querySelector('div.msg')
-        d.style.color = 'red'
-    </script>
+ 
 </body>
 
 </html>
