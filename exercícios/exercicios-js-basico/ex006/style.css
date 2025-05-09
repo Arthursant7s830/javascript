@@ -13,6 +13,7 @@ body {
 header {
     color: white;
     text-align: center;
+    text-shadow: 5px 2px 3px  rgba(0, 0, 0, 0.352);
     font-size: 3em;
     padding-bottom: 10px;
 }
@@ -26,8 +27,9 @@ section {
     box-shadow: 4px 4px 7px rgba(49, 86, 134, 0.598);
 }
 
-div.div1 {
-    color: black;
+img {
+    width: 250px;
+    height: 250px;
 }
 
 footer {
@@ -39,6 +41,3 @@ footer {
     padding: 20px;
 }
 
-img {
-    
-}
