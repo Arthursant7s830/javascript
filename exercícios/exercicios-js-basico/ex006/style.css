@@ -13,7 +13,7 @@ body {
 header {
     color: white;
     text-align: center;
-    text-shadow: 5px 2px 3px  rgba(0, 0, 0, 0.352);
+    text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.352);
     font-size: 3em;
     padding-bottom: 10px;
 }
@@ -32,6 +32,17 @@ img {
     height: 250px;
 }
 
+div {
+    text-align: center;
+    padding: 10px;
+ 
+}
+
+div#foto {
+    margin-right: 70px;
+    
+}
+
 footer {
     background-color: rgb(38, 78, 129);
     color: white;
@@ -40,4 +51,3 @@ footer {
     margin-top: 20px;
     padding: 20px;
 }
-
