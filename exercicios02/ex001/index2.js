@@ -19,8 +19,11 @@
 //     console.log(`${tabuada} x ${i} = ${ tabuada * i}`)
 // }
 
-function verificador (n) {  
+function verificador(n) {
     if (n > 0) {
         return 'Positivo'
-    } else
+    } else if (n < 0) {
+        return 'Negativo'
+    } else ('Zero')
 }
+console.log(verificador(-5))
