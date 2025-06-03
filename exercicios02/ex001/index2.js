@@ -26,4 +26,5 @@ function verificador(n) {
         return 'Negativo'
     } else ('Zero')
 }
+
 console.log(verificador(-5))
