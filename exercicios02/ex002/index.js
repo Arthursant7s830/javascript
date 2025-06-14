@@ -4,14 +4,15 @@ let resposta = document.querySelector('div#resposta')
 let valores = []
 
 function isNumero(n) {
-    if (Number(n) >= 1 && Number(n) <= 100)
+    if (Number(n) >= 1 && Number(n) <= 100) {
         return true
-} else {
+}  else {
     return false
 }
+ }
 
-function inLista() {
-    if (L.indexOf(Number(n)) ! = -1) {
+function inLista(n, l) {
+    if (L.indexOf(Number(n)) != -1) {
         return true
     } else {
         return false
@@ -20,9 +21,9 @@ function inLista() {
 }
 
 function adicionar() {
-    if (isNumero(num.value) && !inLista(num.value))
-
-}   else {
-    alert("Valor inválido ou já selecionado.")
-
-} 
+    if (isNumero(num.value) && !inLista(num.value, valores)) {
+        
+    } else {
+        alert("Valor inválido ou já selecionado.")
+    }
+}
