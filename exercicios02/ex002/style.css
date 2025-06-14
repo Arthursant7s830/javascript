@@ -10,7 +10,7 @@ h1 {
     font-size: 4em;
     font-weight: bolder;
     color: white;
-    text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.342);
+    text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.195);
 }
 
 section {
@@ -18,7 +18,7 @@ section {
     margin: auto;
     width: 750px;
     height: 350px;
-    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.171);
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.136);
     border-radius: 10px;
     padding: 20px;w
 }
