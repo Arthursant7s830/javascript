@@ -5,7 +5,25 @@ let frutasTamanho = frutas.length
 //      console.log('Fruta: ' +frutas[i])
 // }
 
-frutas.forEach(function(item, indice, array) {
-      console.log('Fruta: ' +item)
-}
-)
+// frutas.forEach(function(item, indice, array) {
+//       console.log('Fruta: ' +item)
+// }
+// )
+
+
+
+
+
+// frutas.push('mamão')
+// console.log(frutas[4])
+
+// frutas.pop()
+// console.log(frutas)
+
+// frutas.unshift('Morango')
+// console.log(frutas)
+
+
+let posicaoVar = frutas.indexOf('manga')
+
+console.log(posicaoVar)
