@@ -12,3 +12,12 @@ function aumentarFonteSegundoPost() {
     textPost[1].classList.add('fonte-grande')
 }
  
+function marcarRadio() {
+    let radioMasculino =  document.getElementById('masculino')
+
+     let radioFeminino =  document.getElementById('feminino')
+
+     if(genero === 'M') {
+        radioMasculino.checked = true; 
+     }
+}
