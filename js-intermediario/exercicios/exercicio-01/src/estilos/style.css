@@ -38,21 +38,80 @@
     background-image: url(../imagens/flores-lago.jpg );
 }
 
-.seta-voltar, .seta-avancar {
+.imagem-seta,
+.seta-avancar {
     position: absolute;
+    top: 50%;
     z-index: 1;
+
 }
 
-.seta-voltar {
+.imagem-seta {
     left: 4%;
-    transform: rotateY(180deg);
+    transform: translateY(-50%) rotateY(180deg);
 }
 
 .seta-avancar {
-    right: 4%;
+    right: 2%;
+    transform: rotateY(180deg);
 }
 
-.seta-voltar .imagem-seta, .seta-avancar .imagem-seta {
+.imagem-seta {
     width: 50px;
     height: 50px;
+}
+
+#seta-voltar {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.opacidade {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.conteudo {
+    background-color: white;
+    margin-left: 180px;
+    padding: 65px 60px;
+    width: 620px;
+    border-radius: 10px;
+}
+
+.conteudo .titulo {
+    margin-bottom: 80px;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.conteudo .texto {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.conteudo .botao {
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botao.rosa {
+    color: #C50000;
+}
+
+.botao.verde {
+    color: #D9DD10;
+}
+
+.botao.laranja {
+    color: #A63A17;
+}
+
+.botao.azul {
+    color: #10ACDD;
 }
