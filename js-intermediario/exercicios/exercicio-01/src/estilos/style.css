@@ -1,3 +1,5 @@
+
+
 .imagens-slider {
     position: relative;
     height: 100vh;
@@ -31,11 +33,11 @@
 }
 
 .slide-laranja {
-    background-image: url(../imagens/flores-montanhas.jpg );
+    background-image: url(../imagens/montanhas.jpg );
 }
 
 .slide-azul {
-    background-image: url(../imagens/flores-lago.jpg );
+    background-image: url(../imagens/lago.jpg );
 }
 
 .imagem-seta,

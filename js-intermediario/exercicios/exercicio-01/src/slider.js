@@ -1,13 +1,19 @@
-const imagens =document.querySelector(".slide");
-const setaVoltar = document.getElementById("seta-voltar");
-const setaAvancar = document.getElementById("seta-avancar");
+const imagens =document.querySelectorAll(".slide")
+const setaVoltar = document.getElementById("seta-voltar")
+const setaAvancar = document.getElementById("seta-avancar")
 
-let imagemAtual = 0;
+let imagemAtual = 0
 
 setaAvancar.addEventListener("click", function () {
-esconderImagemAberta();
+if (imagemAtual === imagens.length - 1) {
+    return
+}
 
+esconderImagemAberta()
 
+imagemAtual++ 
+
+imagens[imagemAtual].classList.add("mostrar")
 }
 )
 
