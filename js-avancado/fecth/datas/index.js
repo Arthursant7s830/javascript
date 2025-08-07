@@ -1,1 +1,0 @@
-const dataAtual = new Date();
