@@ -1,0 +1,26 @@
+{
+  "name": "usando_npm",
+  "version": "1.0.0",
+  "description": "projeto de teste de npm do módulo javascript avançado do curso devquest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthursant7s830/javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm"
+  ],
+  "author": "Arthur Santos lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthursant7s830/javascript/issues"
+  },
+  "homepage": "https://github.com/Arthursant7s830/javascript#readme",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
